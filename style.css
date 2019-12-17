@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+main{
+    display: grid;
+    background: #F2FCFF;
+    border: 2xp solid green;
+}
+img {
+    width : 90px;
+    height: 90px;
+   
+}
+.contenedor-principal{
+width:608px;
+margin: 0 auto;
+
+}
+.Artistas{
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+.caja-artista{
+    width: 140px;
+    height: 140px;
+    display: grid;
+    margin-bottom: 50px;
+    justify-content:center;
+    background: #5AD2AE;
+    border: 1px solid #29CEFF;
+   
+    border-radius: 20px;
+  
+ }
+ .caja-artista img{
+border-radius: 50%;
+ }
+ .caja-artista p{
+     color:#F2FCFF;
+
+ }
+ .anuncio{
+    text-align: center;
+ }
