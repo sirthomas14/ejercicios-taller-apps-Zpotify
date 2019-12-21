@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+  }
+  
+  main {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    
+  }
+  
+  .caja-login {
+    width: 360px;
+    text-align: center;
+    border: solid rgba(198, 240, 227,0.4);
+    background: rgba(222, 243, 237,0.4);
+    border-radius: 20px;
+    
+  }
+  
+  .caja-login h1 {
+    color: rgb(34, 184, 139);
+  
+  }
+  
+  .formulario-login {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 10px;
+    width: 260px;
+    margin-left: 25px ;
+   
+  }
+  
+  .formulario-login small {
+    text-align: center;
+  }
+  
+  .formulario-login input {
+    text-align: center;
+    height: 34px;
+    border-radius: 40px ;
+   
+  }
+ 
+  .button {
+    cursor: pointer;
+    background:rgba(40, 183, 140, 0.2);
+    color: rgb(34, 184, 139);
+    opacity: 3;
+  }
+  
+  .formulario-login small {
+    color: gray;
+  }
