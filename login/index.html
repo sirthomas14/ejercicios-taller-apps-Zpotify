@@ -4,7 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Marcelo</title>
+    <title>Marcelo</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="Logic.js"></script>
 </head>
 <body>
   <main>
@@ -13,7 +15,7 @@
       <form class="formulario-login">
         <div class="formulario-login"><input  type="text"  name="user" id="user" placeholder="Ingresa tu correo" autofocus="" required=""></div>
         <div class="formulario-login"> <input  type="password" name="password" id="password" placeholder="Ingresa tu Password" required=""></div>
-        <div class="formulario-login"><input type="submit" id="submit" name="submit" value="Login"  class="button" ></div>
+        <div class="formulario-login"><input type="button" id="submit" name="submit" value="Login"  class="button" onclick="validacionUsuario()" ></div>
         <!-- small -->
       </form>
     </section>
