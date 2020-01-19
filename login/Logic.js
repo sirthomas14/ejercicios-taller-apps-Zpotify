@@ -7,6 +7,6 @@ function validacionUsuario(){
         return false;
     }else{
         console.log("Email y/o contraseña incorrectos");
-        alert("Email y/o contraseña incorrectos");
+        
     }
 }
